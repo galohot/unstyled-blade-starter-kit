@@ -10,5 +10,10 @@
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^1.2.0",
         "vite": "^6.0.11"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.1.4",
+        "alpinejs": "^3.14.9",
+        "tailwindcss": "^4.1.4"
     }
 }

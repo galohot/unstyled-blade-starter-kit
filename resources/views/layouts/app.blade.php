@@ -9,9 +9,11 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @livewireStyles
     </head>
     <body>
         <div>
+            
             @include('layouts.navigation')
 
             <!-- Page Heading -->
@@ -28,5 +30,6 @@
                 {{ $slot }}
             </main>
         </div>
+        @livewireScripts
     </body>
 </html>

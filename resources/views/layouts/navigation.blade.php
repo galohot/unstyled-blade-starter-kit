@@ -5,7 +5,7 @@
             <div>
                 <!-- Logo -->
                 <div>
-                    <a href="{{ route('dashboard') }}">
+                    <a x-navigate.prefetch.hover href="{{ route('dashboard') }}">
                         Logo
                         {{-- <x-application-logo /> --}}
                     </a>
@@ -14,20 +14,20 @@
                 <!-- Navigation Links -->
                 <div>
                     {{-- active="request()->routeIs('dashboard') --}}
-                    <a href="{{ route('dashboard') }}">{{ __('Dashboard') }}</a>
+                    <a x-navigate.prefetch.hover href="{{ route('dashboard') }}">{{ __('Dashboard') }}</a>
                 </div>
             </div>
 
             <!-- Settings -->
             <div>
                 <p>{{ Auth::user()->name }}</p>
-                
-                <a href="{{ route('profile.edit') }}">{{ __('Profile') }}</a>
+
+                <a x-navigate.prefetch.hover href="{{ route('profile.edit') }}">{{ __('Profile') }}</a>
 
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
                     <button type="submit">{{ __('Log Out') }}</button>
-                </form> 
+                </form>
 
             </div>
         </div>
