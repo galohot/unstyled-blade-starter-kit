@@ -1,1 +1,68 @@
-@import "tailwindcss";
+/* Example src/input.css */
+@import "tailwindcss"; /* Or the specific parts: base, components, utilities */
+
+@theme {
+  /* --- KEMLU Custom Colors (Full Palette - GENERATED ESTIMATES) --- */
+  /* IMPORTANT: Replace with official brand colors if available! */
+
+  /* Kemlu Blue Palette (Base Estimate: #4A6C9B at 500) */
+  --color-kemlu-blue-50: #F8FAFC;
+  --color-kemlu-blue-100: #EBF0F7;
+  --color-kemlu-blue-200: #D3DCEB;
+  --color-kemlu-blue-300: #A3B8D3;
+  --color-kemlu-blue-400: #7492BD;
+  --color-kemlu-blue-500: #4A6C9B; /* Base Estimate */
+  --color-kemlu-blue-600: #3E5A84;
+  --color-kemlu-blue-700: #354E73;
+  --color-kemlu-blue-800: #2D415E;
+  --color-kemlu-blue-900: #25354C;
+  --color-kemlu-blue-950: #1A2433;
+  --color-kemlu-blue-DEFAULT: var(--color-kemlu-blue-500); /* Alias for simple class `bg-kemlu-blue` */
+
+  /* Kemlu Yellow/Gold Palette (Base Estimate: #EAB308 at 500) */
+  --color-kemlu-yellow-50: #FEFDE8;  /* Adjusted lightest shade */
+  --color-kemlu-yellow-100: #FEF9C3;
+  --color-kemlu-yellow-200: #FEF08A;
+  --color-kemlu-yellow-300: #FDE047;
+  --color-kemlu-yellow-400: #FACC15;
+  --color-kemlu-yellow-500: #EAB308; /* Base Estimate */
+  --color-kemlu-yellow-600: #CA8A04;
+  --color-kemlu-yellow-700: #A16207;
+  --color-kemlu-yellow-800: #854D0E;
+  --color-kemlu-yellow-900: #713F12;
+  --color-kemlu-yellow-950: #422006;
+  --color-kemlu-yellow-DEFAULT: var(--color-kemlu-yellow-500); /* Alias */
+
+  /* Kemlu Red Palette (Base Estimate: #B91C1C placed at 700 for better range) */
+  --color-kemlu-red-50: #FEF2F2;
+  --color-kemlu-red-100: #FEE2E2;
+  --color-kemlu-red-200: #FECACA;
+  --color-kemlu-red-300: #FCA5A5;
+  --color-kemlu-red-400: #F87171;
+  --color-kemlu-red-500: #EF4444;
+  --color-kemlu-red-600: #DC2626;
+  --color-kemlu-red-700: #B91C1C; /* Base Estimate */
+  --color-kemlu-red-800: #991B1B;
+  --color-kemlu-red-900: #7F1D1D;
+  --color-kemlu-red-950: #450A0A;
+  --color-kemlu-red-DEFAULT: var(--color-kemlu-red-700); /* Alias - points to base estimate */
+
+  /* Kemlu Green Palette (Base Estimate: #16A34A placed at 600 for better range) */
+  --color-kemlu-green-50: #F0FDF4;
+  --color-kemlu-green-100: #DCFCE7;
+  --color-kemlu-green-200: #BBF7D0;
+  --color-kemlu-green-300: #86EFAC;
+  --color-kemlu-green-400: #4ADE80;
+  --color-kemlu-green-500: #22C55E;
+  --color-kemlu-green-600: #16A34A; /* Base Estimate */
+  --color-kemlu-green-700: #15803D;
+  --color-kemlu-green-800: #166534;
+  --color-kemlu-green-900: #14532D;
+  --color-kemlu-green-950: #052E16;
+  --color-kemlu-green-DEFAULT: var(--color-kemlu-green-600); /* Alias - points to base estimate */
+
+  /* --- End KEMLU Custom Colors --- */
+
+  /* Your other theme customizations can go here */
+
+}
